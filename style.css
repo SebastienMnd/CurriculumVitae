@@ -1,4 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mulish:wght@200;300&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(47, 104, 158);
+    font-family: 'Mulish', sans-serif;
+    margin: 0px 0px 50px 0px;
+}
+
+.container {
+    display: flex;
+}
+
+li {
+    margin: 0px 5px;;
+}
+
+header .container {
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+header h1 {
+    color: white;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* MAIN */
+section .container {
+    /* align-items: center; */
+    width:70%;
+}
+
+section h2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 5em;
+}
+
+section p {
+    font-size: 3.5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.presentation {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.presentation .container div {
+    margin: 5px 7px;
+}
+
+.img-presentation {
+    background-image: url(./items/images/keyboard.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:300px;
+    border-radius: 100%;
+}
+
+
+/* AUTRE */
+.separation {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+hr {
+    display: flex;
+    width: 80%;
 }
